@@ -1,18 +1,12 @@
 .bottom_element_image{
     pointer-events: none;
     width: 28px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin: auto;
 }
 
 .bottom_element_grid{
-    margin-top: 5px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 5px auto 0 auto;
     grid-template-columns: 100%;
-    grid-template-rows: max-content max-content;
     height: max-content;
     width: 100%;
     display: grid;
@@ -28,7 +22,7 @@
 
 .bottom_bar_grid{
     display: grid;
-    grid-template-columns: repeat(5, calc(100% / 5));
+    grid-template-columns: repeat(5, 1fr);
     height: 100%;
     margin-top: 4px;
     width: 100%;
